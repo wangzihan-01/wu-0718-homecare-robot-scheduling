@@ -1,0 +1,485 @@
+{"time_s": 4, "type": "task_released", "task_id": "T0001", "task_type": "fetch"}
+{"time_s": 4, "type": "task_selected", "task_id": "T0001"}
+{"time_s": 12, "type": "node_arrival", "node": "living"}
+{"time_s": 613, "type": "task_completed", "task_id": "T0001"}
+{"time_s": 621, "type": "node_arrival", "node": "dock"}
+{"time_s": 621, "type": "charge_started"}
+{"time_s": 688, "type": "charge_completed"}
+{"time_s": 756, "type": "task_released", "task_id": "T0002", "task_type": "medication"}
+{"time_s": 756, "type": "task_selected", "task_id": "T0002"}
+{"time_s": 764, "type": "node_arrival", "node": "living"}
+{"time_s": 780, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 957, "type": "task_released", "task_id": "T0003", "task_type": "medication"}
+{"time_s": 1125, "type": "task_completed", "task_id": "T0002"}
+{"time_s": 1125, "type": "task_selected", "task_id": "T0003"}
+{"time_s": 1141, "type": "node_arrival", "node": "living"}
+{"time_s": 1153, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 1572, "type": "task_completed", "task_id": "T0003"}
+{"time_s": 1584, "type": "node_arrival", "node": "living"}
+{"time_s": 1592, "type": "node_arrival", "node": "dock"}
+{"time_s": 1592, "type": "charge_started"}
+{"time_s": 1717, "type": "charge_completed"}
+{"time_s": 1863, "type": "task_released", "task_id": "T0004", "task_type": "medication"}
+{"time_s": 1863, "type": "task_selected", "task_id": "T0004"}
+{"time_s": 1871, "type": "node_arrival", "node": "living"}
+{"time_s": 1881, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 1886, "type": "task_released", "task_id": "T0005", "task_type": "cleaning"}
+{"time_s": 2070, "type": "task_released", "task_id": "T0006", "task_type": "fetch"}
+{"time_s": 2070, "type": "task_preempted", "task_id": "T0004", "remaining_service_s": 378, "position": {"node": "bathroom", "edge": null, "offset_m": 0.0, "remaining_distance_m": 0.0}}
+{"time_s": 2070, "type": "task_selected", "task_id": "T0006"}
+{"time_s": 2587, "type": "task_completed", "task_id": "T0006"}
+{"time_s": 2587, "type": "task_selected", "task_id": "T0004"}
+{"time_s": 2965, "type": "task_completed", "task_id": "T0004"}
+{"time_s": 2965, "type": "task_selected", "task_id": "T0005"}
+{"time_s": 3181, "type": "task_released", "task_id": "T0007", "task_type": "patrol"}
+{"time_s": 3232, "type": "task_released", "task_id": "T0008", "task_type": "medication"}
+{"time_s": 3242, "type": "task_completed", "task_id": "T0005"}
+{"time_s": 3242, "type": "task_selected", "task_id": "T0008"}
+{"time_s": 3250, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 3447, "type": "task_released", "task_id": "E0001", "task_type": "emergency"}
+{"time_s": 3447, "type": "task_preempted", "task_id": "T0008", "remaining_service_s": 137, "position": {"node": "bedroom", "edge": null, "offset_m": 0.0, "remaining_distance_m": 0.0}}
+{"time_s": 3447, "type": "task_selected", "task_id": "E0001"}
+{"time_s": 3447, "type": "emergency_response", "task_id": "E0001", "response_time_s": 0}
+{"time_s": 3447, "type": "safety_override", "phase": "event", "reason": "forced_emergency", "action": {"type": "serve", "task_id": "E0001"}}
+{"time_s": 3567, "type": "task_completed", "task_id": "E0001"}
+{"time_s": 3567, "type": "task_selected", "task_id": "T0008"}
+{"time_s": 3704, "type": "task_completed", "task_id": "T0008"}
+{"time_s": 3704, "type": "task_selected", "task_id": "T0007"}
+{"time_s": 3942, "type": "task_completed", "task_id": "T0007"}
+{"time_s": 3958, "type": "node_arrival", "node": "living"}
+{"time_s": 3966, "type": "node_arrival", "node": "dock"}
+{"time_s": 3966, "type": "charge_started"}
+{"time_s": 4198, "type": "charge_completed"}
+{"time_s": 4498, "type": "charge_started"}
+{"time_s": 4502, "type": "charge_completed"}
+{"time_s": 4802, "type": "charge_started"}
+{"time_s": 4806, "type": "charge_completed"}
+{"time_s": 5106, "type": "charge_started"}
+{"time_s": 5110, "type": "charge_completed"}
+{"time_s": 5318, "type": "task_released", "task_id": "T0009", "task_type": "fetch"}
+{"time_s": 5318, "type": "task_selected", "task_id": "T0009"}
+{"time_s": 5326, "type": "node_arrival", "node": "living"}
+{"time_s": 5494, "type": "task_released", "task_id": "T0010", "task_type": "medication"}
+{"time_s": 5550, "type": "task_released", "task_id": "T0011", "task_type": "companionship"}
+{"time_s": 5746, "type": "task_completed", "task_id": "T0009"}
+{"time_s": 5746, "type": "task_selected", "task_id": "T0011"}
+{"time_s": 5762, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 6163, "type": "task_completed", "task_id": "T0011"}
+{"time_s": 6163, "type": "task_selected", "task_id": "T0010"}
+{"time_s": 6179, "type": "node_arrival", "node": "living"}
+{"time_s": 6191, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 6622, "type": "task_completed", "task_id": "T0010"}
+{"time_s": 6634, "type": "node_arrival", "node": "living"}
+{"time_s": 6642, "type": "node_arrival", "node": "dock"}
+{"time_s": 6642, "type": "charge_started"}
+{"time_s": 6811, "type": "charge_completed"}
+{"time_s": 7111, "type": "charge_started"}
+{"time_s": 7115, "type": "charge_completed"}
+{"time_s": 7415, "type": "charge_started"}
+{"time_s": 7419, "type": "charge_completed"}
+{"time_s": 7719, "type": "charge_started"}
+{"time_s": 7723, "type": "charge_completed"}
+{"time_s": 7997, "type": "task_released", "task_id": "T0012", "task_type": "cleaning"}
+{"time_s": 7997, "type": "task_selected", "task_id": "T0012"}
+{"time_s": 8005, "type": "node_arrival", "node": "living"}
+{"time_s": 8173, "type": "task_released", "task_id": "T0013", "task_type": "patrol"}
+{"time_s": 8390, "type": "task_completed", "task_id": "T0012"}
+{"time_s": 8390, "type": "task_selected", "task_id": "T0013"}
+{"time_s": 8766, "type": "task_completed", "task_id": "T0013"}
+{"time_s": 8774, "type": "node_arrival", "node": "dock"}
+{"time_s": 8774, "type": "charge_started"}
+{"time_s": 8863, "type": "charge_completed"}
+{"time_s": 9163, "type": "charge_started"}
+{"time_s": 9167, "type": "charge_completed"}
+{"time_s": 9464, "type": "task_released", "task_id": "T0014", "task_type": "companionship"}
+{"time_s": 9464, "type": "task_selected", "task_id": "T0014"}
+{"time_s": 9472, "type": "node_arrival", "node": "living"}
+{"time_s": 9482, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 10050, "type": "task_completed", "task_id": "T0014"}
+{"time_s": 10060, "type": "node_arrival", "node": "living"}
+{"time_s": 10068, "type": "node_arrival", "node": "dock"}
+{"time_s": 10068, "type": "charge_started"}
+{"time_s": 10152, "type": "charge_completed"}
+{"time_s": 10328, "type": "task_released", "task_id": "T0015", "task_type": "cleaning"}
+{"time_s": 10328, "type": "task_selected", "task_id": "T0015"}
+{"time_s": 10336, "type": "node_arrival", "node": "living"}
+{"time_s": 10346, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 10647, "type": "task_completed", "task_id": "T0015"}
+{"time_s": 10657, "type": "node_arrival", "node": "living"}
+{"time_s": 10665, "type": "node_arrival", "node": "dock"}
+{"time_s": 10665, "type": "charge_started"}
+{"time_s": 10714, "type": "charge_completed"}
+{"time_s": 11014, "type": "charge_started"}
+{"time_s": 11018, "type": "charge_completed"}
+{"time_s": 11244, "type": "task_released", "task_id": "E0002", "task_type": "emergency"}
+{"time_s": 11244, "type": "task_selected", "task_id": "E0002"}
+{"time_s": 11244, "type": "safety_override", "phase": "event", "reason": "forced_emergency", "action": {"type": "serve", "task_id": "E0002"}}
+{"time_s": 11252, "type": "node_arrival", "node": "living"}
+{"time_s": 11268, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 11268, "type": "emergency_response", "task_id": "E0002", "response_time_s": 24}
+{"time_s": 11388, "type": "task_completed", "task_id": "E0002"}
+{"time_s": 11404, "type": "node_arrival", "node": "living"}
+{"time_s": 11412, "type": "node_arrival", "node": "dock"}
+{"time_s": 11412, "type": "charge_started"}
+{"time_s": 11459, "type": "charge_completed"}
+{"time_s": 11759, "type": "charge_started"}
+{"time_s": 11763, "type": "charge_completed"}
+{"time_s": 11821, "type": "task_released", "task_id": "T0016", "task_type": "medication"}
+{"time_s": 11821, "type": "task_selected", "task_id": "T0016"}
+{"time_s": 11829, "type": "node_arrival", "node": "living"}
+{"time_s": 11839, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 12181, "type": "task_completed", "task_id": "T0016"}
+{"time_s": 12191, "type": "node_arrival", "node": "living"}
+{"time_s": 12199, "type": "node_arrival", "node": "dock"}
+{"time_s": 12199, "type": "charge_started"}
+{"time_s": 12258, "type": "charge_completed"}
+{"time_s": 12282, "type": "task_released", "task_id": "T0017", "task_type": "companionship"}
+{"time_s": 12282, "type": "task_selected", "task_id": "T0017"}
+{"time_s": 12290, "type": "node_arrival", "node": "living"}
+{"time_s": 12302, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 12560, "type": "task_completed", "task_id": "T0017"}
+{"time_s": 12572, "type": "node_arrival", "node": "living"}
+{"time_s": 12580, "type": "node_arrival", "node": "dock"}
+{"time_s": 12580, "type": "charge_started"}
+{"time_s": 12628, "type": "charge_completed"}
+{"time_s": 12928, "type": "charge_started"}
+{"time_s": 12932, "type": "charge_completed"}
+{"time_s": 13131, "type": "task_released", "task_id": "T0018", "task_type": "medication"}
+{"time_s": 13131, "type": "task_selected", "task_id": "T0018"}
+{"time_s": 13139, "type": "node_arrival", "node": "living"}
+{"time_s": 13155, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 13217, "type": "task_released", "task_id": "E0003", "task_type": "emergency"}
+{"time_s": 13217, "type": "task_preempted", "task_id": "T0018", "remaining_service_s": 387, "position": {"node": "bedroom", "edge": null, "offset_m": 0.0, "remaining_distance_m": 0.0}}
+{"time_s": 13217, "type": "task_selected", "task_id": "E0003"}
+{"time_s": 13217, "type": "safety_override", "phase": "event", "reason": "forced_emergency", "action": {"type": "serve", "task_id": "E0003"}}
+{"time_s": 13233, "type": "node_arrival", "node": "living"}
+{"time_s": 13245, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 13245, "type": "emergency_response", "task_id": "E0003", "response_time_s": 28}
+{"time_s": 13365, "type": "task_completed", "task_id": "E0003"}
+{"time_s": 13365, "type": "task_selected", "task_id": "T0018"}
+{"time_s": 13377, "type": "node_arrival", "node": "living"}
+{"time_s": 13393, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 13780, "type": "task_completed", "task_id": "T0018"}
+{"time_s": 13796, "type": "node_arrival", "node": "living"}
+{"time_s": 13804, "type": "node_arrival", "node": "dock"}
+{"time_s": 13804, "type": "charge_started"}
+{"time_s": 13933, "type": "charge_completed"}
+{"time_s": 14233, "type": "charge_started"}
+{"time_s": 14237, "type": "charge_completed"}
+{"time_s": 14393, "type": "task_released", "task_id": "T0019", "task_type": "companionship"}
+{"time_s": 14393, "type": "task_selected", "task_id": "T0019"}
+{"time_s": 14401, "type": "node_arrival", "node": "living"}
+{"time_s": 14417, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 14567, "type": "task_released", "task_id": "T0020", "task_type": "fetch"}
+{"time_s": 14673, "type": "task_released", "task_id": "T0021", "task_type": "patrol"}
+{"time_s": 15028, "type": "task_completed", "task_id": "T0019"}
+{"time_s": 15028, "type": "task_selected", "task_id": "T0020"}
+{"time_s": 15044, "type": "node_arrival", "node": "living"}
+{"time_s": 15056, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 15472, "type": "task_completed", "task_id": "T0020"}
+{"time_s": 15472, "type": "task_selected", "task_id": "T0021"}
+{"time_s": 15699, "type": "task_completed", "task_id": "T0021"}
+{"time_s": 15711, "type": "node_arrival", "node": "living"}
+{"time_s": 15719, "type": "node_arrival", "node": "dock"}
+{"time_s": 15719, "type": "charge_started"}
+{"time_s": 15889, "type": "charge_completed"}
+{"time_s": 16189, "type": "charge_started"}
+{"time_s": 16193, "type": "charge_completed"}
+{"time_s": 16384, "type": "task_released", "task_id": "E0004", "task_type": "emergency"}
+{"time_s": 16384, "type": "task_selected", "task_id": "E0004"}
+{"time_s": 16384, "type": "safety_override", "phase": "event", "reason": "forced_emergency", "action": {"type": "serve", "task_id": "E0004"}}
+{"time_s": 16392, "type": "node_arrival", "node": "living"}
+{"time_s": 16408, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 16408, "type": "emergency_response", "task_id": "E0004", "response_time_s": 24}
+{"time_s": 16528, "type": "task_completed", "task_id": "E0004"}
+{"time_s": 16544, "type": "node_arrival", "node": "living"}
+{"time_s": 16552, "type": "node_arrival", "node": "dock"}
+{"time_s": 16552, "type": "charge_started"}
+{"time_s": 16598, "type": "charge_completed"}
+{"time_s": 16767, "type": "task_released", "task_id": "T0022", "task_type": "patrol"}
+{"time_s": 16767, "type": "task_selected", "task_id": "T0022"}
+{"time_s": 16775, "type": "node_arrival", "node": "living"}
+{"time_s": 16787, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 17104, "type": "task_completed", "task_id": "T0022"}
+{"time_s": 17116, "type": "node_arrival", "node": "living"}
+{"time_s": 17124, "type": "node_arrival", "node": "dock"}
+{"time_s": 17124, "type": "charge_started"}
+{"time_s": 17179, "type": "charge_completed"}
+{"time_s": 17479, "type": "charge_started"}
+{"time_s": 17483, "type": "charge_completed"}
+{"time_s": 17783, "type": "charge_started"}
+{"time_s": 17785, "type": "task_released", "task_id": "T0023", "task_type": "fetch"}
+{"time_s": 17785, "type": "task_selected", "task_id": "T0023"}
+{"time_s": 17793, "type": "node_arrival", "node": "living"}
+{"time_s": 17805, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 17850, "type": "task_released", "task_id": "T0024", "task_type": "companionship"}
+{"time_s": 18333, "type": "task_released", "task_id": "T0025", "task_type": "companionship"}
+{"time_s": 18404, "type": "task_completed", "task_id": "T0023"}
+{"time_s": 18404, "type": "task_selected", "task_id": "T0024"}
+{"time_s": 18707, "type": "task_completed", "task_id": "T0024"}
+{"time_s": 18707, "type": "task_selected", "task_id": "T0025"}
+{"time_s": 18935, "type": "task_released", "task_id": "T0026", "task_type": "companionship"}
+{"time_s": 19139, "type": "task_completed", "task_id": "T0025"}
+{"time_s": 19139, "type": "task_selected", "task_id": "T0026"}
+{"time_s": 19151, "type": "node_arrival", "node": "living"}
+{"time_s": 19307, "type": "task_released", "task_id": "T0027", "task_type": "patrol"}
+{"time_s": 19520, "type": "task_completed", "task_id": "T0026"}
+{"time_s": 19520, "type": "task_selected", "task_id": "T0027"}
+{"time_s": 19532, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 19859, "type": "task_completed", "task_id": "T0027"}
+{"time_s": 19871, "type": "node_arrival", "node": "living"}
+{"time_s": 19879, "type": "node_arrival", "node": "dock"}
+{"time_s": 19879, "type": "charge_started"}
+{"time_s": 20120, "type": "charge_completed"}
+{"time_s": 20420, "type": "charge_started"}
+{"time_s": 20424, "type": "charge_completed"}
+{"time_s": 20724, "type": "charge_started"}
+{"time_s": 20728, "type": "charge_completed"}
+{"time_s": 20860, "type": "task_released", "task_id": "T0028", "task_type": "fetch"}
+{"time_s": 20860, "type": "task_selected", "task_id": "T0028"}
+{"time_s": 20868, "type": "node_arrival", "node": "living"}
+{"time_s": 20884, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 20946, "type": "task_released", "task_id": "T0029", "task_type": "patrol"}
+{"time_s": 21122, "type": "task_completed", "task_id": "T0028"}
+{"time_s": 21122, "type": "task_selected", "task_id": "T0029"}
+{"time_s": 21307, "type": "task_completed", "task_id": "T0029"}
+{"time_s": 21323, "type": "node_arrival", "node": "living"}
+{"time_s": 21331, "type": "node_arrival", "node": "dock"}
+{"time_s": 21331, "type": "charge_started"}
+{"time_s": 21405, "type": "charge_completed"}
+{"time_s": 21705, "type": "charge_started"}
+{"time_s": 21709, "type": "charge_completed"}
+{"time_s": 21840, "type": "task_released", "task_id": "E0005", "task_type": "emergency"}
+{"time_s": 21840, "type": "task_selected", "task_id": "E0005"}
+{"time_s": 21840, "type": "safety_override", "phase": "event", "reason": "forced_emergency", "action": {"type": "serve", "task_id": "E0005"}}
+{"time_s": 21848, "type": "node_arrival", "node": "living"}
+{"time_s": 21848, "type": "emergency_response", "task_id": "E0005", "response_time_s": 8}
+{"time_s": 21968, "type": "task_completed", "task_id": "E0005"}
+{"time_s": 21976, "type": "node_arrival", "node": "dock"}
+{"time_s": 21976, "type": "charge_started"}
+{"time_s": 22000, "type": "charge_completed"}
+{"time_s": 22300, "type": "charge_started"}
+{"time_s": 22304, "type": "charge_completed"}
+{"time_s": 22604, "type": "charge_started"}
+{"time_s": 22608, "type": "charge_completed"}
+{"time_s": 22779, "type": "task_released", "task_id": "T0030", "task_type": "fetch"}
+{"time_s": 22779, "type": "task_selected", "task_id": "T0030"}
+{"time_s": 22787, "type": "node_arrival", "node": "living"}
+{"time_s": 22799, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 23082, "type": "task_completed", "task_id": "T0030"}
+{"time_s": 23094, "type": "node_arrival", "node": "living"}
+{"time_s": 23102, "type": "node_arrival", "node": "dock"}
+{"time_s": 23102, "type": "charge_started"}
+{"time_s": 23153, "type": "charge_completed"}
+{"time_s": 23453, "type": "charge_started"}
+{"time_s": 23457, "type": "charge_completed"}
+{"time_s": 23757, "type": "charge_started"}
+{"time_s": 23761, "type": "charge_completed"}
+{"time_s": 24061, "type": "charge_started"}
+{"time_s": 24065, "type": "charge_completed"}
+{"time_s": 24365, "type": "charge_started"}
+{"time_s": 24369, "type": "charge_completed"}
+{"time_s": 24669, "type": "charge_started"}
+{"time_s": 24673, "type": "charge_completed"}
+{"time_s": 24973, "type": "charge_started"}
+{"time_s": 24977, "type": "charge_completed"}
+{"time_s": 25002, "type": "task_released", "task_id": "T0031", "task_type": "cleaning"}
+{"time_s": 25002, "type": "task_selected", "task_id": "T0031"}
+{"time_s": 25010, "type": "node_arrival", "node": "living"}
+{"time_s": 25042, "type": "task_released", "task_id": "T0032", "task_type": "patrol"}
+{"time_s": 25042, "type": "task_preempted", "task_id": "T0031", "remaining_service_s": 553, "position": {"node": "living", "edge": null, "offset_m": 0.0, "remaining_distance_m": 0.0}}
+{"time_s": 25042, "type": "task_selected", "task_id": "T0032"}
+{"time_s": 25507, "type": "task_completed", "task_id": "T0032"}
+{"time_s": 25507, "type": "task_selected", "task_id": "T0031"}
+{"time_s": 26060, "type": "task_completed", "task_id": "T0031"}
+{"time_s": 26068, "type": "node_arrival", "node": "dock"}
+{"time_s": 26068, "type": "charge_started"}
+{"time_s": 26172, "type": "charge_completed"}
+{"time_s": 26472, "type": "charge_started"}
+{"time_s": 26476, "type": "charge_completed"}
+{"time_s": 26776, "type": "charge_started"}
+{"time_s": 26780, "type": "charge_completed"}
+{"time_s": 27025, "type": "task_released", "task_id": "T0033", "task_type": "companionship"}
+{"time_s": 27025, "type": "task_selected", "task_id": "T0033"}
+{"time_s": 27033, "type": "node_arrival", "node": "living"}
+{"time_s": 27043, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 27249, "type": "task_completed", "task_id": "T0033"}
+{"time_s": 27259, "type": "node_arrival", "node": "living"}
+{"time_s": 27267, "type": "node_arrival", "node": "dock"}
+{"time_s": 27267, "type": "charge_started"}
+{"time_s": 27315, "type": "charge_completed"}
+{"time_s": 27508, "type": "task_released", "task_id": "E0006", "task_type": "emergency"}
+{"time_s": 27508, "type": "task_selected", "task_id": "E0006"}
+{"time_s": 27508, "type": "safety_override", "phase": "event", "reason": "forced_emergency", "action": {"type": "serve", "task_id": "E0006"}}
+{"time_s": 27516, "type": "node_arrival", "node": "living"}
+{"time_s": 27528, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 27528, "type": "emergency_response", "task_id": "E0006", "response_time_s": 20}
+{"time_s": 27648, "type": "task_completed", "task_id": "E0006"}
+{"time_s": 27660, "type": "node_arrival", "node": "living"}
+{"time_s": 27668, "type": "node_arrival", "node": "dock"}
+{"time_s": 27668, "type": "charge_started"}
+{"time_s": 27709, "type": "charge_completed"}
+{"time_s": 28009, "type": "charge_started"}
+{"time_s": 28013, "type": "charge_completed"}
+{"time_s": 28313, "type": "charge_started"}
+{"time_s": 28317, "type": "charge_completed"}
+{"time_s": 28617, "type": "charge_started"}
+{"time_s": 28621, "type": "charge_completed"}
+{"time_s": 28820, "type": "task_released", "task_id": "T0034", "task_type": "cleaning"}
+{"time_s": 28820, "type": "task_selected", "task_id": "T0034"}
+{"time_s": 28828, "type": "node_arrival", "node": "living"}
+{"time_s": 28844, "type": "task_released", "task_id": "T0035", "task_type": "medication"}
+{"time_s": 29224, "type": "task_completed", "task_id": "T0034"}
+{"time_s": 29224, "type": "task_selected", "task_id": "T0035"}
+{"time_s": 29234, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 29630, "type": "task_released", "task_id": "T0036", "task_type": "medication"}
+{"time_s": 29831, "type": "task_completed", "task_id": "T0035"}
+{"time_s": 29831, "type": "task_selected", "task_id": "T0036"}
+{"time_s": 29839, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 29854, "type": "task_released", "task_id": "T0037", "task_type": "companionship"}
+{"time_s": 30119, "type": "task_completed", "task_id": "T0036"}
+{"time_s": 30119, "type": "task_selected", "task_id": "T0037"}
+{"time_s": 30127, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 30718, "type": "task_completed", "task_id": "T0037"}
+{"time_s": 30728, "type": "node_arrival", "node": "living"}
+{"time_s": 30736, "type": "node_arrival", "node": "dock"}
+{"time_s": 30736, "type": "charge_started"}
+{"time_s": 30941, "type": "task_released", "task_id": "T0038", "task_type": "companionship"}
+{"time_s": 30941, "type": "task_selected", "task_id": "T0038"}
+{"time_s": 30949, "type": "node_arrival", "node": "living"}
+{"time_s": 30965, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 31536, "type": "task_completed", "task_id": "T0038"}
+{"time_s": 31552, "type": "node_arrival", "node": "living"}
+{"time_s": 31560, "type": "node_arrival", "node": "dock"}
+{"time_s": 31560, "type": "charge_started"}
+{"time_s": 31664, "type": "charge_completed"}
+{"time_s": 31727, "type": "task_released", "task_id": "T0039", "task_type": "companionship"}
+{"time_s": 31727, "type": "task_selected", "task_id": "T0039"}
+{"time_s": 31735, "type": "node_arrival", "node": "living"}
+{"time_s": 31747, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 32304, "type": "task_completed", "task_id": "T0039"}
+{"time_s": 32316, "type": "node_arrival", "node": "living"}
+{"time_s": 32324, "type": "node_arrival", "node": "dock"}
+{"time_s": 32324, "type": "charge_started"}
+{"time_s": 32400, "type": "charge_completed"}
+{"time_s": 32700, "type": "charge_started"}
+{"time_s": 32704, "type": "charge_completed"}
+{"time_s": 33004, "type": "charge_started"}
+{"time_s": 33008, "type": "charge_completed"}
+{"time_s": 33308, "type": "charge_started"}
+{"time_s": 33312, "type": "charge_completed"}
+{"time_s": 33612, "type": "charge_started"}
+{"time_s": 33616, "type": "charge_completed"}
+{"time_s": 33916, "type": "charge_started"}
+{"time_s": 33920, "type": "charge_completed"}
+{"time_s": 34220, "type": "charge_started"}
+{"time_s": 34224, "type": "charge_completed"}
+{"time_s": 34263, "type": "task_released", "task_id": "T0040", "task_type": "cleaning"}
+{"time_s": 34263, "type": "task_selected", "task_id": "T0040"}
+{"time_s": 34266, "type": "task_released", "task_id": "T0041", "task_type": "patrol"}
+{"time_s": 34271, "type": "node_arrival", "node": "living"}
+{"time_s": 34556, "type": "task_released", "task_id": "T0042", "task_type": "fetch"}
+{"time_s": 34868, "type": "task_completed", "task_id": "T0040"}
+{"time_s": 34868, "type": "task_selected", "task_id": "T0042"}
+{"time_s": 34878, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 35155, "type": "task_released", "task_id": "T0043", "task_type": "companionship"}
+{"time_s": 35249, "type": "task_completed", "task_id": "T0042"}
+{"time_s": 35249, "type": "task_selected", "task_id": "T0041"}
+{"time_s": 35259, "type": "node_arrival", "node": "living"}
+{"time_s": 35271, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 35724, "type": "task_completed", "task_id": "T0041"}
+{"time_s": 35724, "type": "task_selected", "task_id": "T0043"}
+{"time_s": 35736, "type": "node_arrival", "node": "living"}
+{"time_s": 35853, "type": "task_released", "task_id": "T0044", "task_type": "cleaning"}
+{"time_s": 36132, "type": "task_completed", "task_id": "T0043"}
+{"time_s": 36132, "type": "task_selected", "task_id": "T0044"}
+{"time_s": 36148, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 36354, "type": "task_completed", "task_id": "T0044"}
+{"time_s": 36370, "type": "node_arrival", "node": "living"}
+{"time_s": 36378, "type": "node_arrival", "node": "dock"}
+{"time_s": 36378, "type": "charge_started"}
+{"time_s": 36521, "type": "task_released", "task_id": "T0045", "task_type": "companionship"}
+{"time_s": 36521, "type": "task_selected", "task_id": "T0045"}
+{"time_s": 36529, "type": "node_arrival", "node": "living"}
+{"time_s": 36541, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 36953, "type": "task_completed", "task_id": "T0045"}
+{"time_s": 36961, "type": "task_released", "task_id": "T0046", "task_type": "medication"}
+{"time_s": 36961, "type": "task_selected", "task_id": "T0046"}
+{"time_s": 36965, "type": "node_arrival", "node": "living"}
+{"time_s": 37022, "type": "task_released", "task_id": "T0047", "task_type": "fetch"}
+{"time_s": 37022, "type": "task_preempted", "task_id": "T0046", "remaining_service_s": 237, "position": {"node": "living", "edge": null, "offset_m": 0.0, "remaining_distance_m": 0.0}}
+{"time_s": 37022, "type": "task_selected", "task_id": "T0047"}
+{"time_s": 37034, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 37473, "type": "task_completed", "task_id": "T0047"}
+{"time_s": 37473, "type": "task_selected", "task_id": "T0046"}
+{"time_s": 37485, "type": "node_arrival", "node": "living"}
+{"time_s": 37722, "type": "task_completed", "task_id": "T0046"}
+{"time_s": 37730, "type": "node_arrival", "node": "dock"}
+{"time_s": 37730, "type": "charge_started"}
+{"time_s": 37984, "type": "charge_completed"}
+{"time_s": 38168, "type": "task_released", "task_id": "T0048", "task_type": "medication"}
+{"time_s": 38168, "type": "task_selected", "task_id": "T0048"}
+{"time_s": 38176, "type": "node_arrival", "node": "living"}
+{"time_s": 38186, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 38688, "type": "task_completed", "task_id": "T0048"}
+{"time_s": 38698, "type": "node_arrival", "node": "living"}
+{"time_s": 38706, "type": "node_arrival", "node": "dock"}
+{"time_s": 38706, "type": "charge_started"}
+{"time_s": 38783, "type": "charge_completed"}
+{"time_s": 38896, "type": "task_released", "task_id": "E0007", "task_type": "emergency"}
+{"time_s": 38896, "type": "task_selected", "task_id": "E0007"}
+{"time_s": 38896, "type": "safety_override", "phase": "event", "reason": "forced_emergency", "action": {"type": "serve", "task_id": "E0007"}}
+{"time_s": 38904, "type": "node_arrival", "node": "living"}
+{"time_s": 38920, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 38920, "type": "emergency_response", "task_id": "E0007", "response_time_s": 24}
+{"time_s": 39040, "type": "task_completed", "task_id": "E0007"}
+{"time_s": 39056, "type": "node_arrival", "node": "living"}
+{"time_s": 39064, "type": "node_arrival", "node": "dock"}
+{"time_s": 39064, "type": "charge_started"}
+{"time_s": 39110, "type": "charge_completed"}
+{"time_s": 39410, "type": "charge_started"}
+{"time_s": 39414, "type": "charge_completed"}
+{"time_s": 39714, "type": "charge_started"}
+{"time_s": 39718, "type": "charge_completed"}
+{"time_s": 39763, "type": "task_released", "task_id": "T0049", "task_type": "companionship"}
+{"time_s": 39763, "type": "task_selected", "task_id": "T0049"}
+{"time_s": 39771, "type": "node_arrival", "node": "living"}
+{"time_s": 39781, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 40174, "type": "task_completed", "task_id": "T0049"}
+{"time_s": 40184, "type": "node_arrival", "node": "living"}
+{"time_s": 40192, "type": "node_arrival", "node": "dock"}
+{"time_s": 40192, "type": "charge_started"}
+{"time_s": 40255, "type": "charge_completed"}
+{"time_s": 40555, "type": "charge_started"}
+{"time_s": 40559, "type": "charge_completed"}
+{"time_s": 40859, "type": "charge_started"}
+{"time_s": 40863, "type": "charge_completed"}
+{"time_s": 41163, "type": "charge_started"}
+{"time_s": 41167, "type": "charge_completed"}
+{"time_s": 41217, "type": "task_released", "task_id": "T0050", "task_type": "medication"}
+{"time_s": 41217, "type": "task_selected", "task_id": "T0050"}
+{"time_s": 41225, "type": "node_arrival", "node": "living"}
+{"time_s": 41235, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 41569, "type": "task_completed", "task_id": "T0050"}
+{"time_s": 41579, "type": "node_arrival", "node": "living"}
+{"time_s": 41587, "type": "node_arrival", "node": "dock"}
+{"time_s": 41587, "type": "charge_started"}
+{"time_s": 41638, "type": "charge_completed"}
+{"time_s": 41761, "type": "task_released", "task_id": "T0051", "task_type": "medication"}
+{"time_s": 41761, "type": "task_selected", "task_id": "T0051"}
+{"time_s": 41769, "type": "node_arrival", "node": "living"}
+{"time_s": 41781, "type": "node_arrival", "node": "kitchen"}
+{"time_s": 42423, "type": "task_completed", "task_id": "T0051"}
+{"time_s": 42432, "type": "task_released", "task_id": "T0052", "task_type": "cleaning"}
+{"time_s": 42432, "type": "task_selected", "task_id": "T0052"}
+{"time_s": 42435, "type": "node_arrival", "node": "living"}
+{"time_s": 42445, "type": "node_arrival", "node": "bathroom"}
+{"time_s": 42903, "type": "task_completed", "task_id": "T0052"}
+{"time_s": 42913, "type": "node_arrival", "node": "living"}
+{"time_s": 42921, "type": "node_arrival", "node": "dock"}
+{"time_s": 42921, "type": "charge_started"}
+{"time_s": 42984, "type": "task_released", "task_id": "T0053", "task_type": "companionship"}
+{"time_s": 42984, "type": "task_selected", "task_id": "T0053"}
+{"time_s": 42992, "type": "node_arrival", "node": "living"}
+{"time_s": 43008, "type": "node_arrival", "node": "bedroom"}
+{"time_s": 43200, "type": "horizon_reached"}

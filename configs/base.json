@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1",
+  "horizon_s": 43200,
+  "model": {
+    "edges": [["dock","living",4],["living","bedroom",8],["living","kitchen",6],["living","bathroom",5],["bedroom","bathroom",4]],
+    "dock": "dock", "start_node": "dock", "speed_m_s": 0.5,
+    "capacity_wh": 40.0, "initial_energy_wh": 40.0,
+    "move_wh_m": 0.02, "service_wh_s": 0.0015, "idle_wh_s": 0.00015,
+    "charge_wh_s": 0.015, "reserve_wh": 1.0,
+    "low_battery_fraction": 0.2, "charge_target_fraction": 1.0,
+    "default_wait_s": 300, "max_wait_s": 3600, "critical_priority": 4
+  },
+  "scenario": {
+    "task_rate_per_hour": 4.0, "emergency_rate_per_hour": 0.0,
+    "service_range_s": [180,600], "deadline_slack_range_s": [600,1800],
+    "earliest_delay_range_s": [0,120], "emergency_service_s": 120,
+    "emergency_deadline_s": 300,
+    "types": ["medication","patrol","fetch","companionship","cleaning"],
+    "priorities": [5,3,2,2,1]
+  },
+  "planners": {
+    "fifo": {}, "edf": {},
+    "greedy": {"priority_weight": 1.0, "distance_weight": 0.4, "priority_scale": 5.0, "distance_scale_m": 20.0},
+    "ortools": {"horizon_s": 3600, "max_tasks": 12, "time_limit_s": 0.1, "num_workers": 1, "seed": 917, "energy_scale": 1000000, "completion_reward": 100000, "tardiness_weight": 10},
+    "llm": {"model": null, "temperature": 0.0, "timeout_s": 30, "max_retries": 1, "mode": "disabled", "prompt_version": "homecare-v1", "cache_dir": "results/llm_cache"}
+  },
+  "experiment": {"max_decisions": 10000, "purpose": "smoke_pipeline_validation", "planner_seed": 917}
+}

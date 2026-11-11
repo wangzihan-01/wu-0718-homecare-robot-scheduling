@@ -1,0 +1,61 @@
+{
+  "base_config": "configs/base.json",
+  "training_seeds": [
+    301,
+    302
+  ],
+  "validation_seeds": [
+    303
+  ],
+  "reserved_evaluation_seeds": [
+    201,
+    202,
+    203,
+    20001,
+    20002,
+    20003
+  ],
+  "scenarios": {
+    "low_no_event": {
+      "scenario": {
+        "task_rate_per_hour": 2.0,
+        "emergency_rate_per_hour": 0.0
+      }
+    },
+    "low_with_event": {
+      "scenario": {
+        "task_rate_per_hour": 2.0,
+        "emergency_rate_per_hour": 0.5
+      }
+    },
+    "higher_no_event": {
+      "scenario": {
+        "task_rate_per_hour": 8.0,
+        "emergency_rate_per_hour": 0.0
+      }
+    },
+    "higher_with_event": {
+      "scenario": {
+        "task_rate_per_hour": 8.0,
+        "emergency_rate_per_hour": 0.5
+      }
+    }
+  },
+  "scales": {
+    "priority": 5.0,
+    "slack_s": 1800.0,
+    "travel_s": 120.0,
+    "service_s": 600.0,
+    "age_s": 1800.0,
+    "wait_s": 600.0
+  },
+  "max_examples_per_day": 200,
+  "teacher_overrides": {},
+  "training": {
+    "epochs": 60,
+    "learning_rate": 0.05,
+    "l2": 0.001,
+    "seed": 917
+  },
+  "notes": "Execution paused. Twelve teacher days total: eight training and four validation, distinct from 12 evaluation days. OPTIMAL ordinary task choices with at least two feasible candidates only; capped at 200 examples per day. No offline full-day oracle or future features. No hyperparameter search; seed 303 is held out by full day."
+}

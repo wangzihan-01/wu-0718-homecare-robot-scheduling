@@ -1,0 +1,43 @@
+{
+  "name": "course_ai_quick",
+  "purpose": "exploratory_course_pilot_not_confirmatory",
+  "base_config": "configs/learned_base.json",
+  "seeds": [
+    201,
+    202,
+    203
+  ],
+  "algorithms": [
+    "edf",
+    "ortools",
+    "learned"
+  ],
+  "scenarios": {
+    "low_no_event": {
+      "scenario": {
+        "task_rate_per_hour": 2.0,
+        "emergency_rate_per_hour": 0.0
+      }
+    },
+    "low_with_event": {
+      "scenario": {
+        "task_rate_per_hour": 2.0,
+        "emergency_rate_per_hour": 0.5
+      }
+    },
+    "higher_no_event": {
+      "scenario": {
+        "task_rate_per_hour": 8.0,
+        "emergency_rate_per_hour": 0.0
+      }
+    },
+    "higher_with_event": {
+      "scenario": {
+        "task_rate_per_hour": 8.0,
+        "emergency_rate_per_hour": 0.5
+      }
+    }
+  },
+  "expected_runs": 36,
+  "notes": "Future paired AI pilot, not run. Requires a real trained imitation artifact before execution. Test-only models do not qualify. Compare only on held-out seeds 201-203; never train on them. Same public information, shared emergency/charging policy and synthetic 12-hour household days. Runtime unknown."
+}

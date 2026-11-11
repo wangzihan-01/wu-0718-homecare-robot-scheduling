@@ -1,0 +1,17 @@
+{
+  "charge_count": 72,
+  "charge_time_s": 3196,
+  "min_energy_wh": 36.11255000000001,
+  "battery_violations": 0,
+  "robot_failed": false,
+  "energy_consumed_wh": 48.70259999999995,
+  "travel_distance_m": 741.0,
+  "mode_time_s": {
+    "idle": 0,
+    "moving": 1482,
+    "serving": 20818,
+    "waiting": 17704,
+    "charging": 3196,
+    "failed": 0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "recorded_synthetic_development_example",
+  "scenario": "emergency",
+  "seed": 101,
+  "methods": [
+    "edf",
+    "ortools"
+  ],
+  "source_batch": "20261106T142150063264Z_smoke_v1_337ba68f",
+  "source_revision": "c7f8542fd1963eb1e1bebd03f41c8cc8249eb100",
+  "release_source_revision": "c61b497dcb1ea6e8b3c32b5007f87d036ddcf6c8",
+  "trajectory_sha256": "a164dd465c76c9fc7f9a8bda9b6ba7c28722f5ddbad193ad98be0742a10b0ed6",
+  "configuration_sha256": "9e70cf4601517a3aaa02b8e45080fc08439eda8512152f4903436413196277c4"
+}

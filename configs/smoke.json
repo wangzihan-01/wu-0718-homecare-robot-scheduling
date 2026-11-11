@@ -1,0 +1,15 @@
+{
+  "name": "smoke_v1",
+  "purpose": "smoke_pipeline_validation_only",
+  "base_config": "configs/base.json",
+  "seeds": [101,102,103],
+  "algorithms": ["fifo","edf","greedy","ortools"],
+  "scenarios": {
+    "normal": {"scenario": {"task_rate_per_hour": 4.0, "emergency_rate_per_hour": 0.0}},
+    "high_load": {"scenario": {"task_rate_per_hour": 12.0, "emergency_rate_per_hour": 0.0}},
+    "emergency": {"scenario": {"task_rate_per_hour": 4.0, "emergency_rate_per_hour": 1.0}},
+    "energy_tight": {"scenario": {"task_rate_per_hour": 4.0, "emergency_rate_per_hour": 0.5}, "model": {"capacity_wh": 8.0, "initial_energy_wh": 8.0}}
+  },
+  "expected_runs": 48,
+  "notes": "Declared before execution. Development seeds only. Not evidence of superiority."
+}
